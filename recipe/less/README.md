@@ -56,11 +56,11 @@ bash 7b_base.sh
 
 ## 📋 Acknowledgement
 
-- We build the RL framework on top of [verl](https://github.com/volcengine/verl) (HybridFlow), a flexible and efficient RLHF library.
+- We build the RL framework on top of [verl](https://github.com/volcengine/verl), a flexible and efficient RLHF library.
 
 - Inference is accelerated by [vLLM](https://github.com/vllm-project/vllm) with PagedAttention for high throughput.
 
-- Models are trained on the [Qwen2.5 family](https://github.com/QwenLM/Qwen2.5) (Alibaba Cloud), optimized for mathematical reasoning.
+- Models are trained on the [Qwen2.5 family](https://github.com/QwenLM/Qwen2.5), optimized for mathematical reasoning.
 
 - Training data is derived from [hendrycks_math](https://huggingface.co/datasets/hendrydong/hendrycks_math), a benchmark for measuring mathematical problem-solving ability.
 
