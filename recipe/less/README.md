@@ -74,16 +74,3 @@ bash 7b_base.sh
 
 - Training data is derived from [hendrycks_math](https://huggingface.co/datasets/hendrydong/hendrycks_math), a benchmark for measuring mathematical problem-solving ability.
 
-## 📝 Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-
-@article{chen2025less,
-  title={Beyond High-Entropy Exploration: Correctness-Aware Low-Entropy Segment-Based Advantage Shaping for Reasoning LLMs},
-  author={Chen, Xinzhu and Li, Xuesheng and Sun, Zhongxiang and Yu, Weijie},
-  journal={arXiv preprint arXiv:2512.00908v1},
-  year={2025}
-}
-```
