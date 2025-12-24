@@ -51,7 +51,6 @@ For training Qwen2.5-7B on a single node (8 NVIDIA A100-40G GPUs):
 
 cd verl
 conda activate your_env
-# Configure dataset path and hyperparameters in 7b_base.sh first
 bash 7b_base.sh
 ```
 
