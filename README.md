@@ -44,9 +44,7 @@ By distinguishing low-entropy segments into "correct-only", "incorrect-only", an
 
 ### Training Configuration
 
-Recommended hyperparameters:
-
-- Minimum low-entropy segment length `μ=5` (optimal for stability and accuracy).
+Recommended hyperparameter: Minimum low-entropy segment length `μ=5` (optimal for stability and accuracy).
 
 ### Quick Run
 
@@ -68,5 +66,6 @@ bash 7b_base.sh
 - Models are trained on the [Qwen2.5 family](https://github.com/QwenLM/Qwen2.5), optimized for mathematical reasoning.
 
 - Training data is derived from [hendrycks_math](https://huggingface.co/datasets/hendrydong/hendrycks_math), a benchmark for measuring mathematical problem-solving ability.
+
 
 
